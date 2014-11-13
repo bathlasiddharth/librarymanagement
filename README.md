@@ -28,6 +28,7 @@ From this page, user can add new borrowers into the system. The user should ente
 7)	Fines (fines.php)
 From this page, user can search for any pending fines on any card number. If there is any pending fine on that card number, then user can pay the fine from the same page. A fine can only be paid if all the books have been returned by that borrower. A borrower has to pay all the fine on his card together. 
 On this page, there is another feature of updating the fines. Clicking this button will update the fines table. Fines are charged at $0.25/day
+
 8)	Reset (reset.php)
 This is a backend page that deletes all entries from all the tables. This page reads commands stored in sqlcommands folder. This file parses *.sql file and executes each command in that file.
 
